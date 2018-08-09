@@ -1,0 +1,66 @@
+/*GUIA DE ESTILOS ==========
+        Mockup
+        Guia de estilos
+        HTML
+        Estilos
+================ 09/08/2018*/ 
+
+/*============= H's de SEO =============*/
+h1{font-size: 2.5rem;}
+
+h2{font-size: 2rem;}
+
+h3{font-size: 1.5rem;}
+
+/* <p> es 1rem */
+h4{font-size: 0.8rem;}
+
+h5{font-size: 0.6rem;}
+
+h6{font-size: 0.4rem;}
+
+/* -------------- Parrafos -------------*/
+p{font-size: 1.250rem;}
+
+pre{font-size: 1rem;}
+
+/* ----------- COLORES -------------*/
+.turquesaTexto{
+    color: turquoise;}
+.turquesaFondo{
+    background-color: mediumaquamarine;}
+.azulgrisTexto{
+    color: rgb(80, 124, 148);}
+.azulgrisFondo{
+    color: rgb(41, 58, 67);}
+.grismedioTexto{
+    color: rgb(138, 138, 138);}
+.grismedioFondo{
+    background-color: rgb(49, 49, 49);}
+
+/*------------- GRISES -------------*/
+.grisOscuroFondo{background-color:#5#454545;}
+.grisTexto{background-color:#5#454545;}
+                  /**/
+.grisMedioFondo{background-color:#910e0e;}
+.grismedioTexto{background-color:#a5a5a5;}
+                  /**/
+.grisLightFondo{background-color:#EEE;}
+.grisLightTexto{background-color:#EEE;}
+                  /**/
+.blancoFondo{background-color:#f7f7f7;}
+.negroFondo{background-color: #101010;}
+
+/* ------------- TAMAÑOS TIPOGRAFICOS -------------*/
+.tituloPrincipal{
+    font-size: 9.125rem;
+    color: rgba(255, 255, 255, 0.898);}
+
+    /*miramos en el mockup el tamaño,
+    vamos a la pag -pxtoem-,
+    ponemos el tamaño en px
+    lo pasamos a rem y lo añadimos*/
+
+.botonTexto{
+    font-size: 2.188rem;}
+

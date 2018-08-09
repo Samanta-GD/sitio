@@ -1,0 +1,147 @@
+/*====================================*/
+
+/*       Estilos CSSS de Samanta      */
+
+/*          Practica de banners       */
+
+/*              7/08/2018             */
+
+/*              8/08/2018             */
+
+/*====================================*/
+
+html {
+    color: white;
+    font-family: Arial black, sans-serif;
+    font-size: 16px;
+}
+
+.sliderprincipal {
+    background-image: url('../img/escritorio/banner_delfin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sliderprincipal__texto {
+    padding: 300px 0;
+    text-align: right;
+    width: 75%;
+}
+
+.sliderprincipal__texto__titulo {
+    font-size: 140px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.sliderprincipal__texto__boton {
+    font-size: 25px;
+    color: rgb(81, 161, 204);
+    /* border: 1px solid; */
+    background-color: white;
+    /* padding: 6px, 2px, 6px, 2px; */
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    /* border-color:rgb(81, 161, 204); */
+    border-radius: 4px;
+    text-decoration: none;
+    /* Mover la caja debajo de (M) */
+    margin-right: 140px;
+}
+
+/* ================================================= */
+
+/* ================================================= */
+
+/*===================== SECTION =====================*/
+
+.articulos {
+    position: relative;
+}
+
+.articulo__fondo {
+    height: 295%;
+}
+
+.articulo__parrafo01,
+.articulo__parrafo02 {
+    color: black;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+}
+
+.articulo__parrafo01 {
+    height: 800px;
+    width: 450px;
+    left: 161px;
+    top: 152px;
+}
+
+.articulo__parrafo02 {
+    height: 800px;
+    width: 450px;
+    right: 161px;
+    bottom: 153px;
+}
+
+/* ================================================= */
+
+/* ================================================= */
+
+.section1 {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.fotomontaña {
+    height: 45%;
+}
+
+.parrafo1,
+.parrafo2 {
+    color: green;
+    font-family: 'Times New Roman';
+}
+
+.parrafo1 {
+    width: 45%;
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: top;
+    padding-left: 40px;
+}
+
+.parrafo2 {
+    padding-top: 40px;
+}
+
+/*===================== SECTION 2 =====================*/
+.section2__fotosection2{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.section2_parrafo02{
+    padding-bottom: 50px;
+    font-family: serif;
+    color: rgb(51, 22, 99);
+}
+
+
+/*===================== SECTION 3 =====================*/
+.section3__fotosection3{
+    width: 100%;
+}
+
+.section3__parrafo03{
+    font-family: serif;
+    color: rgb(83, 166, 255);
+    column-count: 2;
+    padding: 30px;
+}
