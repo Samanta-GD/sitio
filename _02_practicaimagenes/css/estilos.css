@@ -1,0 +1,36 @@
+/*====================================*/
+/*            CSSS de Samanta         */
+/*         Practica con imagenes      */
+/*              6/08/2018             */
+/*====================================*/
+
+/* DIV que NO es SEO */
+.bannerfondo{
+    width: 400px;
+    height: 400px;
+    background-image:url('../img/escritorio/banner_zorro_escritorio.jpg');
+    background-size: contain; /* cover/contain*/
+    background-repeat: no-repeat;
+
+    /*background-color: rgb(130, 87, 8);*/
+    background-image: url('../img/escritorio/banner_zorro_escritorio.jpg');
+    background-position: center;
+
+    /* Si es BLOCK SI podemos utilizar un margin */
+    margin: 0 auto;
+}
+/*======================================================*/
+header{ /*lo trata como una imagen*/
+    text-align:center;
+}
+
+.bannerfondo__titulo{
+    color: orange;
+    font-family: fantasy;
+}
+
+/* IMG que SI es SEO */
+.bannermarca{
+    width: 400px;
+
+}
