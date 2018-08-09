@@ -1,25 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <!-- ESTILOS -->
+    <style>
+        /* Si estamos escribiendo en STYLE,
+        los comentarios se pueden abrir y cerrar con </ * * /> */
+
+        @font-face {
+            font-family: 'OpenSansRegular';
+            src: local('OpenSansRegular'),
+            url(opensansregular-regular-webfont.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'OpenSansBold';
+            src: local('OpenSansBold'),
+            url(opensans-bold-webfont.woff) format('woff');
+        }
+
+        html {
+            font-size: 16px;
+            font-family: 'OpenSansRegular', sans-serif;
+            color: #bababa;
+        }
+
+        /* -------------------------------------------------- */
+
+        ol {
+            list-style-type: none;
+            padding-left: 0px;
+        }
+
+        ol li {
+            margin-bottom: 20px;
+            position: relative;
+
+        }
+
+        a {
+            color: #bababa;
+            text-decoration: none;
+        }
+
+        h1,
+        h4 {
+            font-family: 'OpenSansBold', sans-serif;
+            color: black;
+            margin-bottom: 0;
+        }
+
+        h4 {
+            margin-bottom: 80px;
+            margin-top: 2px;
+        }
+
+        body {
+            padding: 60px;
+        }
+
+        /*-------------------------- ROLLOVER --------------------------*/
+
+        ol li:hover span.icon,
+        ol li:hover a {
+            color: rgb(64, 156, 254);
+            font-family: 'OpenSansBold', sans-serif;
+            font-weight: 900;
+            /* letter-spacing: 5px; espaciado de letras*/
+        }
+
+        /*-------------------------- POPUP --------------------------*/
+
+        .popup {
+            width: 100px;
+            height: 100px;
+            /* border: 10px solid #eee; */
+            border: 7px solid white;
+
+            display: none;
+
+            position: absolute;
+            bottom: 25px;
+            left: 400px;
+            z-index: 10;
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* X=Horizontal - Y=Vertical - 20px=Espesor 3px = Ancho */
+            box-shadow: 7px 10px 30px 1px;
+        }
+ol li:hover .popup{
+    display: inline-block;
+}
+        .popup01 {
+            background-image: url('practicablockinline/practicablockinline.jpg');
+        }
+
+        .popup02 {
+            background-image: url('practicaimagenes/practicaimagenes.jpg');
+        }
+
+        .popup03 {
+            background-image: url('practicabanner/practicabanner.jpg');
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>
-        DIRECTORIO WEB: 
-        <h2>Samanta Gálvez</h2>
-    </h1>
-    <!-- OL: Lista numerada: 1, 2, 3, 4... -->
+    <h1>Directorio Web:</h1>
+    <h4>(Samanta Gálvez)</h4>
+
+
+    <!-- OL: Lista numerada: 1, 2, 3, 4... 
+         LI: Los elementos de la lista-->
     <ol>
-        <LI>Práctica inicial (HTML/CSS3)</LI>
-        <LI>Item 2</LI>
-        <LI>Item 3</LI>
+        <li>
+            <!-- Insertar icono -->
+            <span class="icon">&#9658; </span>
+            <a href="practicaBlockInline/index.html">
+
+                Práctica Block/Inline | 3/08/2018
+            </a>
+            <div class="popup popup01"> </div>
+        </li>
+
+
+        <li>
+            <span class="icon">&#9658; </span>
+            <a href="practicaimagenes/index.html">
+                Práctica de dos imagenes(zorro y delfín) | 6/08/2018</a>
+            <div class="popup popup02"> </div>
+        </li>
+
+        <li>
+            <span class="icon">&#9658; </span>
+            <a href="practicabanner/index.html">
+                Práctica haciendo banners (dos páginas) | 7/08/2018</a>
+            <div class="popup popup03"> </div>
+        </li>
     </ol>
-<!-- =============================== -->
-    <!-- Lista sin numerar -->
+
+
+    <!-- =============================== -->
+    <!-- UL: Lista sin numerar -->
     <ul></ul>
 
 </body>
+
 </html>
