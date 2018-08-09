@@ -1,0 +1,115 @@
+/*====================================*/
+/*            CSSS de Samanta         */
+/*             6/08/2018              */
+/*====================================*/
+
+/* Botón */
+a#boton{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    Reducir este párrafo en una sola línea*/
+
+    padding: 10px, 20px, 10px, 20px;
+
+    background-color: violet;
+    /* Puntas redondeadas */
+    border-radius: 5px;
+
+    border: 1px solid rgb(48, 16, 48);
+
+    margin-bottom: 20px;
+
+    display: inline-block;
+}
+
+
+/* Cuadrados rojos */
+div.cajaroja, div.cajaverde{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border: 3px solid black;
+    margin-top: 20px;
+    /* Propiedad nativa, transforma nuestro DIV en un bloque 
+    display: block;*/
+    /* Cambiar la propiedad nativa */
+    /* display: inline-block; */
+}
+
+div.cajaverde{
+    background-color: green;
+    border: 3px solid black;
+}
+
+/* Texto */
+span{background-color: white;
+    width: 300px;
+    height: 300px;
+
+}
+
+.cajaroja{
+    height: 200px;
+}
+
+.cajaroja__texto{
+    font-size: 18px;
+}
+
+.cajaroja__texto__negrita{
+    font-weight: 900px;
+}
+
+.menu-principal{
+    float: right;
+
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
+}
+
+.menu-principal__item02,
+.menu-principal__item03,
+.menu-principal__item04{
+    color: black;
+    /* Eliminar subrayado inferior de <a> */
+    text-decoration: none;
+    margin: 0px, 5px;
+}
+
+.menu-principal__item01{
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+/* Crear rollover en el menu con la pseudoclase HOVER */
+.menu-principal__item02:hover,
+.menu-principal__item03:hover,
+.menu-principal__item04:hover{
+    color: red;
+    /* Eliminar subrayado inferior de <a> */
+    text-decoration: none;
+}
+/* Si ya se ha visitado, lo dejamos en negro */
+.menu-principal__item02:visited,
+.menu-principal__item03:visited,
+.menu-principal__item04:visited{
+    color: black;
+}
+
+.menu-principal__item01--off
+.menu-principal__item02--off
+.menu-principal__item03--off
+.menu-principal__item04--off{
+    color: red;
+    font-weight:bolder;
+
+}
+/*a cada enlace un margin de 5 a izq y der*/
+.menu-principal__item01,
+.menu-principal__item02,
+.menu-principal__item03,
+.menu-principal__item04{
+    margin: 20px, 5px
+}
